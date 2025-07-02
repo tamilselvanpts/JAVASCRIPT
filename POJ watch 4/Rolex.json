@@ -1,0 +1,65 @@
+[
+    {
+        "id": 2,
+        "name": "Rolex Daytona",
+        "price": 14500,
+        "image": "./image/rolex/Rolex Daytona.jpeg",
+      "brand":"rolex"
+      },
+      {
+        "id": 3,
+        "name": "Rolex Datejust 41",
+        "price": 8700,
+        "image": "./image/rolex/Rolex Datejust 41.webp",
+      "brand":"rolex"
+      },
+      {
+        "id": 4,
+        "name": "Rolex GMT-Master II",
+        "price": 11950,
+        "image": "./image/rolex/Rolex GMT-Master II.webp",
+      "brand":"rolex"
+      },
+      {
+        "id": 5,
+        "name": "Rolex Oyster Perpetual",
+        "price": 5700,
+        "image": "./image/rolex/Rolex Oyster Perpetual.webp",
+      "brand":"rolex"
+      },
+      {
+        "id": 6,
+        "name": "Rolex Explorer II",
+        "price": 8900,
+        "image": "./image/rolex/Rolex Explorer II.webp",
+      "brand":"rolex"
+      },
+      {
+        "id": 7,
+        "name": "Rolex Milgauss",
+        "price": 8600,
+        "image": "./image/rolex/Rolex Milgauss.webp",
+      "brand":"rolex"
+      },
+      {
+        "id": 8,
+        "name": "Rolex Yacht-Master",
+        "price": 12900,
+        "image": "./image/rolex/Rolex Yacht-Master.webp",
+      "brand":"rolex"
+      },
+      {
+        "id": 9,
+        "name": "Rolex Cellini",
+        "price": 15300,
+        "image": "./image/rolex/Rolex Cellini.jpeg",
+      "brand":"rolex"
+      },
+      {
+        "id": 10,
+        "name": "Rolex Sea-Dweller",
+        "price": 11500,
+        "image": "./image/rolex/Rolex Sea-Dweller.webp",
+      "brand":"rolex"
+      }
+]

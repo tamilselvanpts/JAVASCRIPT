@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Omega Seamaster Diver 300M",
+      "price": 5100,
+      "image": "./image/omega/Omega Seamaster Diver 300M.avif",
+      "brand":"omega"
+    },
+    {
+      "id": 2,
+      "name": "Omega Seamaster Planet Ocean",
+      "price": 6200,
+      "image":  "./image/omega/Omega Seamaster Planet Ocean.jpg",
+      "brand":"omega"
+    },
+    {
+      "id": 3,
+      "name": "Omega Seamaster Aqua Terra",
+      "price": 4900,
+      "image": "./image/omega/Omega Seamaster Aqua Terra.jpg",
+      "brand":"omega"
+    },
+    {
+      "id": 4,
+      "name": "Omega Seamaster 300",
+      "price": 5700,
+      "image":  "./image/omega/Omega Seamaster 300.jpeg",
+      "brand":"omega"
+    },
+    {
+      "id": 5,
+      "name": "Omega Seamaster Co-Axial",
+      "price": 5350,
+      "image":  "./image/omega/Omega Seamaster Co-Axial.webp",
+      "brand":"omega"
+    },
+    {
+      "id": 6,
+      "name": "Omega Seamaster Chronograph",
+      "price": 6650,
+      "image": "./image/omega/Omega Seamaster Chronograph.webp",
+      "brand":"omega"
+    },
+    {
+      "id": 7,
+      "name": "Omega Seamaster PloProf",
+      "price": 8500,
+      "image":  "./image/omega/Omega Seamaster PloProf.webp",
+      "brand":"omega"
+    },
+    {
+      "id": 8,
+      "name": "Omega Seamaster Titanium",
+      "price": 7000,
+      "image":  "./image/omega/Omega Seamaster Titanium.jpeg",
+      "brand":"omega"
+    },
+    {
+      "id": 9,
+      "name": "Omega Seamaster Heritage",
+      "price": 6100,
+      "image": "./image/omega/Omega Seamaster Heritage.avif",
+      "brand":"omega"
+    }
+  ]
+  

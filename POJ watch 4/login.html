@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moonlight Login</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background {
+  background: #1b263b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.login-container {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 15px;
+  color: white;
+  width: 350px;
+  z-index: 1;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.login-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.forgot {
+  display: block;
+  text-align: right;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #198754;
+  color: white;
+  border: none;
+  border-radius: 10px;
+ 
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.google {
+  background: white;
+  color: #333;
+}
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="moon"></div>
+    <div class="login-container">
+      <h2>Welcome back!</h2>
+      <form id="loginForm" >
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <a href="#" class="forgot">Forgot Password?</a>
+        <button type="submit" class="login-btn">Log In</button>
+        <div class="social">
+          <button type="button"  class="btn facebook"><a href="./signin.html">sign up</a></button>
+          <button type="button" class="btn google">Log in with Google</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+<script>
+  const login=document.getElementById("loginForm")
+  login.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const email = this.querySelector('input[type="email"]').value.trim();
+  const password = this.querySelector('input[type="password"]').value.trim();
+
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+
+  if (password.length < 6) {
+    alert("Password must be at least 6 characters long.");
+    return;
+  }
+
+  // If passed validation
+  alert("Logged in successfully! 🌙");
+  if (email && password) {
+      // simulate "action" by redirecting
+      window.location.href = "item.html"; // <== this is your custom action
+    } else {
+      alert("Please fill all fields!");
+    }
+  });
+
+
+
+</script>
+</html>
